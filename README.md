@@ -1,15 +1,15 @@
 # Détection d'objets avec YOLOv5 et YOLOv8
 
 ## 🎯 Objectif du projet
-Ce projet compare la performance de deux modèles de détection d’objets — **YOLOv5** et **YOLOv8** — sur des images issues du dataset COCO et sur des images locales.  
-L’objectif est de comprendre leurs différences en termes de rapidité, précision et simplicité d’utilisation.
+
+Le projet consiste à exploiter deux architectures de détection d’objets, YOLOv5 et YOLOv8, afin de comparer leurs capacités de généralisation. YOLOv5, pré-entraîné sur Microsoft COCO, est utilisé pour la détection sur des images de référence, tandis que YOLOv8 (Ultralytics) est appliqué à des images locales choisies par l’utilisateur, permettant de tester librement la détection d’objets sur n’importe quelle image personnelle.
 
 ## 🧩 Description
 - **YOLOv5** : modèle pré-entraîné sur COCO.  
 - **YOLOv8** : modèle Ultralytics appliqué à des images locales.
 
 ## 🧠 Technologies utilisées
-- Python 3.x  
+- Python
 - PyTorch  
 - Ultralytics YOLO  
 - OpenCV / PIL  
@@ -40,11 +40,6 @@ Object_Detection_withYOLO/
     └── results_summary.md
 ```
 
-## 📊 Résultats comparatifs (exemple)
-| Modèle  | Temps d’inférence | Observation |
-|----------|------------------|--------------|
-| YOLOv5s | ~25 ms | Bonne précision |
-| YOLOv8n | ~20 ms | Résultats plus fins |
 
 ## 🚀 Exécution
 Installez les dépendances :  
@@ -56,8 +51,3 @@ Lancez un script :
 ```bash
 python src/inference_yolov8.py
 ```
-
-## 👩‍💻 Auteur
-Projet réalisé par **Habsatou Laoualy Chaibou**  
-Master Ingénierie Mathématique et Data Science  
-Université de Haute-Alsace, France
